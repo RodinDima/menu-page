@@ -1,0 +1,32 @@
+.description__container {
+
+}
+.description__title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+  
+}
+.description__subTitle {
+	font-size: 48px;
+	font-weight: 300;
+	letter-spacing: 1.92px;
+	text-transform: capitalize;
+}
+.description__text {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.description__image{
+	position: absolute;
+	 bottom: 35px;
+	 left: -100px;
+	
+
+}

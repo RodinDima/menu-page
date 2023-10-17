@@ -1,0 +1,33 @@
+.choice__list {
+  display: inline-block;
+}
+.choice__item {
+  padding: 7px 21px;
+  position: relative;
+}
+.choice__item:hover {
+  background-color: white;
+  border-radius: 50px;
+  font-weight: 700;
+}
+.choice__item:hover::before {
+  content: "•";
+  color: red;
+  margin-right: 5px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.choice__link {
+  display: block;
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.choice__item:hover .choice__link {
+  font-weight: 700;
+}

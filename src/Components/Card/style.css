@@ -1,0 +1,26 @@
+.card__container {
+  background: linear-gradient(
+    180deg,
+    #eef3f8 3.13%,
+    #eef2f7 3.14%,
+    #ccd0dc 116.63%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.53) inset;
+  border-radius: 65px;
+  padding: 60px 32px 42px 50px;
+}
+
+.card__inner {
+  padding: 60px 32px 42px 50px;
+  margin-top: 22px;
+}
+
+.card__content {
+  display: flex;
+  gap: 90px;
+}
+.card__content-descr {
+  position: relative;
+}
+.card__content-item {
+}
