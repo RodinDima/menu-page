@@ -41,6 +41,10 @@
   right: 17px;
 }
 
+.like.active path {
+  fill: red;
+}
+
 .like svg:hover {
   fill: red;
 }
